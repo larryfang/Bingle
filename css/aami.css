@@ -1,0 +1,393 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	margin: 10px auto;
+	width: 905px;
+	font: 75%/120% Arial, Helvetica, sans-serif;
+	background:repeat-x scroll 0 0 #CC0000;
+}
+h1{
+    font-size: 4em;
+    margin-left: 15px;
+	color: #666666;
+}
+p {
+	padding: 0 0 1em;
+}
+/*Layout Divider IDs*/
+#all_div{
+	background-color: white;
+	width: 935px;
+}
+#header_div{
+background:url("../images/aami/bg-header.gif") repeat-x scroll 0 0;
+}
+#content_div{
+	background-color: white;
+	padding: 20px 20px 100px 20px;
+}
+#content_top_div{
+	background:url("../images/aami/bg-header.gif") repeat scroll 0 0 transparent;
+	height:30px;
+	margin:0 0 0 -20px;
+	padding:40px 40px 1px 0;
+	position:relative;
+	width:100%;
+}
+
+/*Dynamic Premium Pricer*/
+#premium_info_div{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    float: right;
+    width: 350px;
+    height: 90px;
+}
+#premium{
+    position: absolute;
+    right: 23px;
+    bottom: 45px;
+}
+.pricer{
+ float: right;
+ margin-right: 30px;
+ font-size: 5em;
+}
+#bubble{
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	position: absolute;
+	background: white;
+	font: 1em arial;
+	font-weight: bold;
+	width: 125px;
+	height: 70px;
+	margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+	padding-top: 20px;
+    top: -60px;
+    right: -90px;
+	
+	text-align: center;
+}
+
+/* Logo and Tag Line */
+#logo_div{
+	padding-left:52px;
+	padding-top:13px;
+}
+#image_logo {
+	background: url("../images/aami/logo.gif") no-repeat 0 0;
+	display:inline-block;
+	vertical-align:top;
+	height: 80px;
+	width: 210px;
+}
+#image_tag_line {
+	background: url("../images/aami/tagline.gif") no-repeat 0 0;
+	display:inline-block;
+	vertical-align:bottom;
+	height: 53px;
+	width: 300px;
+}
+#logo_div span{
+	display: none;
+}
+
+/*Tabs message display page */
+.message_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.message_list li {
+	padding: 0;
+	margin: 0;	
+}
+.message_head {
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;	
+}
+.message_head .timestamp {
+	color: #666666;
+	font-size: 95%;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.message_head .savings {
+	color: #666666;
+	font-size: 95%;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.message_head cite {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+}
+.message_body {
+	padding: 5px 10px 15px;
+}
+.tabHover{
+    display: none;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 100;
+    top: 35px;
+}
+.ui-state-disabled{
+    display: none;
+}
+
+/*Questions Input*/
+.question{
+font-weight: bold;
+width: 100px;
+float: left;
+}
+.question-block{
+display: block;
+font-weight: bold;
+}
+.input{
+width: 200px;
+border: 1px solid gray
+}
+#drivers td{
+    border: 1px solid green;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+    padding: 5px;
+}
+
+/*Sliders*/
+#slider{
+width: 300px;
+}
+#slider a{
+background-color: gray;
+border: solid black 1px;
+}
+#slider2{
+width: 300px;
+}
+#slider2 a{
+background-color: gray;
+border: solid black 1px;
+}
+
+/*Chat*/
+#chat{
+float:left;
+}
+.live-chat{
+font-size: 1.25em;
+font-weight: bold;
+}
+
+/*Social Networks*/
+#social{
+float:right;
+font-size: 1.25em;
+font-weight: bold;
+}
+.social-img{
+height: 50px;
+width: 50px;
+}
+
+/*Vehicle Instant Search*/
+#carInputBox{
+    position: relative;
+    width : 350px;
+}
+#carSuggestionBox{
+    position: relative;
+    width: 350px;
+    background-color: white;
+}
+#carSelectedText{}
+.carSuggestionItem{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: -15px;
+    border: 0px;
+}
+
+/*Address Instant Search*/
+#addressInputBox{
+    position: relative;
+    width : 350px;
+}
+#addressSuggestionBox{
+    position: relative;
+    width: 350px;
+    background-color: white;
+}
+#addressSelectedText{}
+.addressSuggestionItem{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: -15px;
+    border: 0px;
+}
+.highlighted{
+    background-color: #DDDDDD;
+}
+
+/*Navigation Controls*/
+.nextButton{
+    border: 1px solid black;
+    float: right;
+}
+
+.navButton{
+    border: 1px solid black;
+    float: right;
+}
+
+
+#day_store_question
+{
+   
+}
+
+#night_store_question
+{
+    
+}
+
+#car_storage
+{
+    width: 50%;  
+    position: relative;
+}
+
+.radio_question_block
+{
+    clear: both;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.answer
+{
+    clear: both;
+}
+
+.image_radio
+{
+    position: relative;
+    float: left;
+}
+
+.quoteAmount
+{
+    font-size: 6em;
+    margin: 25px;
+}
+
+.message_body
+{
+    overflow: hidden;
+    clear: both;
+}
+
+.ui-tabs .ui-tabs-nav
+{
+    border-color: #CC0000;
+    background-color: #CC0000;
+}
+
+.ui-tabs .ui-tabs-nav li
+{
+    background-color: #FFFFF;
+    border-color: #FFFFFF;
+}
+
+.ui-tabs .ui-tabs-nav li a
+{
+    color: #CC0000;
+}
+
+.ui-tabs .ui-tabs-panel
+{
+    //background-color: #FFFFFF;
+}
+
+.ui-tabs .ui-widget-content
+{
+    border-color: #000000;
+}
+
+.ui-slider-horizontal .ui-slider-range
+{
+    background-color: #CC0000;
+}
+
+.ui-button-text
+{
+   color: #CC0000; 
+}
+
+.ui-dialog-titlebar
+{
+    background-color: #CC0000;
+    border-color: #CC0000;
+    color: #FFFFFF;
+}
+
+.ui-slider-horizontal .ui-slider-range
+{
+    background-color: #CC0000;
+}
+
+.formBorder
+{
+    overflow: hidden;
+    -moz-border-radius: 7px;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid grey;
+
+}
+
+.navButton
+{
+    background-color: white;
+    color: #CC0000;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.nextButton
+{
+    background-color: white;
+    color: #CC0000;
+    font-weight: bold;
+    padding: 3px;
+}
+
+#purchaseButton
+{
+    width: 140px;
+}
+
+#saveButton
+{
+    width: 140px;
+}

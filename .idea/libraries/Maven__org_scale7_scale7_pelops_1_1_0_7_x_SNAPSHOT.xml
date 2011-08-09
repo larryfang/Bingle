@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.scale7:scale7-pelops:1.1-0.7.x-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Repository/org/scale7/scale7-pelops/1.1-0.7.x-SNAPSHOT/scale7-pelops-1.1-0.7.x-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Repository/org/scale7/scale7-pelops/1.1-0.7.x-SNAPSHOT/scale7-pelops-1.1-0.7.x-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Repository/org/scale7/scale7-pelops/1.1-0.7.x-SNAPSHOT/scale7-pelops-1.1-0.7.x-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	margin: 10px auto;
+	width: 905px;
+	font: 75%/120% Arial, Helvetica, sans-serif;
+	background:url("../images/bingle/body_bg_solid_long_dark.png") repeat-x scroll 0 0 #606060;
+}
+h1{
+    font-size: 4em;
+    margin-left: -23px;
+}
+p {
+	padding: 0 0 1em;
+}
+/*Layout Divider IDs*/
+#all_div{}
+#header_div{}
+#content_div{
+	background-color: white;
+	padding: 20px 20px 100px 20px;
+}
+#content_top_div{
+    position: relative;
+	width: 100%;
+	height: 40px;
+	padding: 2em;
+}
+
+/*Dynamic Premium Pricer*/
+#premium_info_div{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    float: right;
+    width: 350px;
+    height: 90px;
+}
+#premium{
+    position: absolute;
+    right: 23px;
+    bottom: 45px;
+}
+.pricer{
+ float: right;
+ margin-right: 30px;
+ font-size: 5em;
+}
+#bubble{
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	position: absolute;
+	background: white;
+	font: 1em arial;
+	font-weight: bold;
+	width: 125px;
+	height: 70px;
+	margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+	padding-top: 20px;
+    top: -60px;
+    right: -90px;
+	
+	text-align: center;
+}
+
+/* Logo and Tag Line */
+#image_logo {
+	background: url("../images/bingle/logo.gif") no-repeat 0 0;
+	display:inline-block;
+	vertical-align:top;
+	height: 80px;
+	width: 190px;
+}
+#image_tag_line {
+	background: url("../images/bingle/tagline.gif") no-repeat 0 0;
+	display:inline-block;
+	vertical-align:top;
+	height: 80px;
+	width: 300px;
+}
+#logo_div span{
+	display: none;
+}
+
+/*Tabs message display page */
+.message_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.message_list li {
+	padding: 0;
+	margin: 0;	
+}
+.message_head {
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;	
+}
+.message_head .timestamp {
+	color: #666666;
+	font-size: 95%;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.message_head .savings {
+	color: #666666;
+	font-size: 95%;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.message_head cite {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+}
+.message_body {
+	padding: 5px 10px 15px;
+}
+.tabHover{
+    display: none;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 100;
+    top: 25px;
+}
+
+/*Questions Input*/
+.question{
+font-weight: bold;
+width: 100px;
+float: left;
+}
+.question-block{
+display: block;
+font-weight: bold;
+}
+.input{
+width: 200px;
+border: 1px solid gray
+}
+#drivers td{
+    border: 1px solid green;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+    padding: 5px;
+}
+
+/*Sliders*/
+#slider{
+width: 300px;
+}
+#slider a{
+background-color: gray;
+border: solid black 1px;
+}
+#slider2{
+width: 300px;
+}
+#slider2 a{
+background-color: gray;
+border: solid black 1px;
+}
+
+/*Chat*/
+#chat{
+float:left;
+}
+.live-chat{
+font-size: 1.25em;
+font-weight: bold;
+}
+
+/*Social Networks*/
+#social{
+float:right;
+font-size: 1.25em;
+font-weight: bold;
+}
+.social-img{
+height: 50px;
+width: 50px;
+}
+
+/*Vehicle Instant Search*/
+#carInputBox{
+    position: relative;
+    width : 350px;
+}
+#carSuggestionBox{
+    position: relative;
+    width: 350px;
+    background-color: white;
+}
+#carSelectedText{}
+.carSuggestionItem{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: -15px;
+    border: 0px;
+}
+
+/*Address Instant Search*/
+#addressInputBox{
+    position: relative;
+    width : 350px;
+}
+#addressSuggestionBox{
+    position: relative;
+    width: 350px;
+    background-color: white;
+}
+#addressSelectedText{}
+.addressSuggestionItem{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: -15px;
+    border: 0px;
+}
+.highlighted{
+    background-color: #DDDDDD;
+}
+
+/*Navigation Controls*/
+.nextButton{
+    border: 1px solid black;
+    float: right;
+}
+
+.navButton{
+    border: 1px solid black;
+    float: right;
+}

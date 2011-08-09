@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Mock/Mock.iml" filepath="$PROJECT_DIR$/../Mock/Mock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Sales-Tax/Sales-Tax.iml" filepath="$PROJECT_DIR$/../Sales-Tax/Sales-Tax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bingle.iml" filepath="$PROJECT_DIR$/bingle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Veda/connector-common/connector-common.iml" filepath="$PROJECT_DIR$/../../Veda/connector-common/connector-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cc_JBehaveSample/jbehave-demo.iml" filepath="$PROJECT_DIR$/../cc_JBehaveSample/jbehave-demo.iml" />
+      <module fileurl="file://$USER_HOME$/jbehave-jbehave-core-jbehave-3.0-709-gaed73e1/jbehave-jbehave-core-aed73e1/examples/trader/jbehave-trader-example.iml" filepath="$USER_HOME$/jbehave-jbehave-core-jbehave-3.0-709-gaed73e1/jbehave-jbehave-core-aed73e1/examples/trader/jbehave-trader-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mvc-ajax/mvc-ajax.iml" filepath="$PROJECT_DIR$/../mvc-ajax/mvc-ajax.iml" />
+      <module fileurl="file://$USER_HOME$/xml-maven-plugin/xml-maven-plugin.iml" filepath="$USER_HOME$/xml-maven-plugin/xml-maven-plugin.iml" />
+    </modules>
+  </component>
+</project>
+

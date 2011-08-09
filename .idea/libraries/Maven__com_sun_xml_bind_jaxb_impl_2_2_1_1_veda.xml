@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sun.xml.bind:jaxb-impl:2.2.1.1-veda">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Repository/com/sun/xml/bind/jaxb-impl/2.2.1.1-veda/jaxb-impl-2.2.1.1-veda.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Repository/com/sun/xml/bind/jaxb-impl/2.2.1.1-veda/jaxb-impl-2.2.1.1-veda-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Repository/com/sun/xml/bind/jaxb-impl/2.2.1.1-veda/jaxb-impl-2.2.1.1-veda-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

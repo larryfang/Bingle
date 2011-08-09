@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mvc-ajax:war">
+    <output-path>$PROJECT_DIR$/../mvc-ajax/target</output-path>
+    <root id="archive" name="mvc-ajax-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mvc-ajax:war exploded" />
+    </root>
+  </artifact>
+</component>
